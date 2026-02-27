@@ -1,0 +1,94 @@
+html{
+	scroll-behavior: smooth !important;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.bg-01{
+	background: url('https://dmd.com.mx/wp-content/uploads/2025/02/BGVirtualDESK.jpg') no-repeat center center/cover;
+        background-attachment: fixed;
+
+        .logo {
+          margin-bottom: 10px;
+      }
+      .virtualdesk {
+          height: auto;
+      }
+      h1 {
+          font-size: 2.5rem;
+          color: #ffdf00;
+          text-transform: uppercase;
+      }
+      h3 {
+          font-size: 1.2rem;
+          color: #fff;
+          line-height: 1.5;
+      }
+}
+.bg-02{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://dmd.com.mx/wp-content/uploads/2024/07/325623871_1920x1080.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-03{
+	background: #009ADA;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-04{
+	background: #eaeaea;
+}
+.cta-button {
+        display: inline-block;
+        padding: 10px 30px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #fff;
+        background-color: #ff7700;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+        background-color: #ff5500;
+    }
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border: none;
+    }
+    .card-title {
+        font-size: 1.5rem;
+        color: #333;
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+    .card-description {
+        font-size: 1rem;
+        padding: 0 15px 10px;
+        color: #666;
+    }
+    .card-button {
+        display: inline-block;
+        margin: 10px 0 20px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #fff;
+        background-color: #009ADA;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .card-button:hover {
+        background-color: #007bbd;
+    }
